@@ -47,9 +47,9 @@ def Find_expression(num):
     for key in all_num.keys():
         if all_num[key] == num:
             print(key)
-Find_expression(45)
+# Find_expression(50)
 
-all_num = {}
+'''all_num = {}
 for i in range(0,len(ternary_list)):
     con_list = ['1']
     # '0' indicate '+', '1' indicate '-'
@@ -86,4 +86,4 @@ plt.title("Total solution")
 plt.ylabel("Number of solutions")
 plt.show()
 print(Total_solutions.index(max_y))
-print(Total_solutions.index(min_y))
+print(Total_solutions.index(min_y))'''
